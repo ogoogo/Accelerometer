@@ -15,6 +15,10 @@
 		CD2CC84126C65C1D00E7EFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC83F26C65C1D00E7EFEA /* LaunchScreen.storyboard */; };
 		CD2CC84C26C65C1D00E7EFEA /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC84B26C65C1D00E7EFEA /* AccelerometerTests.swift */; };
 		CD2CC85726C65C1D00E7EFEA /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC85626C65C1D00E7EFEA /* AccelerometerUITests.swift */; };
+		CD2CC86726C65C8300E7EFEA /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC86526C65C8300E7EFEA /* awa.png */; };
+		CD2CC86826C65C8300E7EFEA /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC86626C65C8300E7EFEA /* suiheiki.png */; };
+		CD2CC86A26C6BB2E00E7EFEA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC86926C6BB2E00E7EFEA /* GameViewController.swift */; };
+		CD2CC86C26C6BB3C00E7EFEA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC86B26C6BB3C00E7EFEA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CD2CC85226C65C1D00E7EFEA /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2CC85626C65C1D00E7EFEA /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
 		CD2CC85826C65C1D00E7EFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2CC86526C65C8300E7EFEA /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		CD2CC86626C65C8300E7EFEA /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		CD2CC86926C6BB2E00E7EFEA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CD2CC86B26C6BB3C00E7EFEA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,9 @@
 				CD2CC83D26C65C1D00E7EFEA /* Assets.xcassets */,
 				CD2CC83F26C65C1D00E7EFEA /* LaunchScreen.storyboard */,
 				CD2CC84226C65C1D00E7EFEA /* Info.plist */,
+				CD2CC86426C65C8300E7EFEA /* 13_Resource */,
+				CD2CC86926C6BB2E00E7EFEA /* GameViewController.swift */,
+				CD2CC86B26C6BB3C00E7EFEA /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				CD2CC85826C65C1D00E7EFEA /* Info.plist */,
 			);
 			path = AccelerometerUITests;
+			sourceTree = "<group>";
+		};
+		CD2CC86426C65C8300E7EFEA /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CC86526C65C8300E7EFEA /* awa.png */,
+				CD2CC86626C65C8300E7EFEA /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,9 @@
 			files = (
 				CD2CC84126C65C1D00E7EFEA /* LaunchScreen.storyboard in Resources */,
 				CD2CC83E26C65C1D00E7EFEA /* Assets.xcassets in Resources */,
+				CD2CC86826C65C8300E7EFEA /* suiheiki.png in Resources */,
 				CD2CC83C26C65C1B00E7EFEA /* Main.storyboard in Resources */,
+				CD2CC86726C65C8300E7EFEA /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2CC86C26C6BB3C00E7EFEA /* ResultViewController.swift in Sources */,
+				CD2CC86A26C6BB2E00E7EFEA /* GameViewController.swift in Sources */,
 				CD2CC83926C65C1B00E7EFEA /* ViewController.swift in Sources */,
 				CD2CC83526C65C1B00E7EFEA /* AppDelegate.swift in Sources */,
 				CD2CC83726C65C1B00E7EFEA /* SceneDelegate.swift in Sources */,
